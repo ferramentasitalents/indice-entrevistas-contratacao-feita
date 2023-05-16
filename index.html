@@ -1,1 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Índice de entrevistas por contratação feita</title>
+  <link href="https://ferramentasitalents.github.io/indice-entrevistas-contratacao-feita/style.css" rel="stylesheet" />
+  <script src="https://ferramentasitalents.github.io/indice-entrevistas-contratacao-feita/scripts.js"></script>
+</head>
+<body>
+  <div id="calculator">
+    <form onsubmit="calculateIndex(); return false;">
+      <label>Número de entrevistas de candidatos:</label>
+      <input type="number" id="num-entrevistas" required>
+      <br>
+      <br>
+      <label>Número de profissionais contratados:</label>
+      <input type="number" id="num-contratados" required>
+      <button type="submit">CALCULAR</button>
+    </form>
+    <div id="result"></div>
+  </div>
+  
+  <script src="script.js"></script>
+</body>
+</html>
 
